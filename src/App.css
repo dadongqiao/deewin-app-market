@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+.app{
+   background: white;
 }
 
 .App-logo {
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.appsWrap{
+  padding-top: 38px;
+  width:1086px;
+  margin: 0  auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-between;
+  background-image: url("./image/bg.png") ;
+  background-repeat: no-repeat;
+  background-position:top center;
+  background-size: 100% 100%;
+
 }
