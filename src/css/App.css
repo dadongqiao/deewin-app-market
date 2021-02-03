@@ -1,3 +1,13 @@
+body{
+ /* background-image: url("./image/bg.png") ;
+  background-repeat: no-repeat;
+  background-position:bottom  center;
+  background-attachment: fixed;
+  background-size: 80% 80%;*/
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 .app{
    background: white;
 }
@@ -11,6 +21,13 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.clear{
+  display: block;
+  height:1px;
+  overflow: hidden;
+  clear: both;
 }
 
 .App-header {
@@ -39,14 +56,21 @@
 
 .appsWrap{
   padding-top: 38px;
-  width:1086px;
+  width:1377px;
   margin: 0  auto;
-  display: flex;
+ /* display: flex;
   flex-flow: row wrap;
-  justify-content:space-between;
-  background-image: url("./image/bg.png") ;
-  background-repeat: no-repeat;
-  background-position:top center;
-  background-size: 100% 100%;
+  justify-content:space-between;*/
 
+
+}
+.wrap{
+  width:1377px;
+  margin: 0  auto;
+  overflow: hidden;
+}
+@media (max-width:1500px) {
+  #navs,#bq,.appsWrap{
+    transform: scale(0.9,0.9);
+  }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import'./css/appItem.css';
-import {AppContent} from "./apps";
+import {AppContent} from "./appsSlice";
 
 const AppItem:React.FC<{app:AppContent,index:number}>=function(props){
     return(
@@ -8,6 +8,7 @@ const AppItem:React.FC<{app:AppContent,index:number}>=function(props){
             <div className="num">
                 {props.index+1<10?'0'+(props.index+1):(props.index+1)+''}
             </div>
+
         <div className='appItem'>
             <div className='tit'>
                 {props.app.title}

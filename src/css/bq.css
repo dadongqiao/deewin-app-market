@@ -1,0 +1,38 @@
+#bq{
+    width: 1307px;
+    margin: 20px auto 0 auto;
+    height:30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.bq-icon{
+   height:30px;
+    padding-left: 36px;
+    background: url("../image/bq.png") no-repeat;
+    line-height:30px;
+    font-size: 22px;
+
+}
+.bqs{
+  display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+.bq{
+    height:26px;
+    border:1px #222222 solid;
+    border-radius:12px 12px;
+    padding: 0 8px;
+    font-size: 14px;
+    line-height: 24px;
+    box-sizing: border-box;
+    margin-left:6px;
+    cursor: pointer;
+
+}
+.bq.cur{
+    background: #fc6719;
+    color: #ffffff;
+    border:1px #fc6719 solid;
+}
