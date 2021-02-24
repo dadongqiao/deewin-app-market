@@ -36,11 +36,35 @@ export const apps:Array<AppContent>=[
         title:'贴心天行健',
         link:'http://www.sqtxj.com/',
         companyId:3,
+        tel:'400-880-9818-4',
         tags:[1]
     },{
         title:'天行健车队管理系统',
-        link:'http://www.sqtxj.com/',
-        companyId:3
+        link:'http://www.sqtxj.com:10086/',
+        companyId:3,
+        tel:'400-880-9818-4',
+        tags:[4]
+    }
+    ,{
+        title:'天行健智能业务运营管理系统',
+        link:'http://www.sqtxj.com:10088/login',
+        companyId:3,
+        tel:'400-880-9818-4',
+        tags:[4]
+    }
+    ,{
+        title:'天行健车贷管理系统',
+        link:'http://www.sqtxj.com:50188/',
+        companyId:3,
+        tel:'400-880-9818-4',
+        tags:[4]
+    }
+    ,{
+        title:'天行健渣土车运营监管系统',
+        link:'http://www.txjpt.com:10010/ztcweb/html/login/login.html',
+        companyId:3,
+        tel:'400-880-9818-4',
+        tags:[4]
     }
     ,{
         title:'陕汽控股',
@@ -51,14 +75,29 @@ export const apps:Array<AppContent>=[
     ,{
         title:'陕汽商用车',
         link:'http://www.hsqc.com.cn/',
-        companyId:8,
+        companyId:7,
         tags:[1]
     }
     ,{
-        title:'德银融资租赁',
+        title:'德银融资租赁官网',
         link:'https://www.deewinfl.com/',
+        tel:'021-61762588',
         companyId:4,
         tags:[1]
+    }
+    ,{
+        title:'德银融资租赁系统',
+        link:'http://www.deewinfl.cn/',
+        tel:'021-61762588',
+        companyId:4,
+        tags:[2]
+    }
+    ,{
+        title:'档案系统',
+        link:'http://218.97.55.27',
+        tel:'021-61762588',
+        companyId:4,
+        tags:[2]
     }
     ,{
         title:'美信保险经纪',
@@ -66,6 +105,43 @@ export const apps:Array<AppContent>=[
         tel:'021-52416660',
         companyId:5,
         tags:[1]
+    }
+    ,{
+        title:'博云车联',
+        link:'http://www.car900.com',
+        companyId:2,
+        tags:[2,4]
+    }
+    ,{
+        title:'智慧车队管理系统',
+        link:'http://115.236.59.234:8080',
+        companyId:2,
+        tags:[2,4]
+    }
+    ,{
+        title:'智能车队管理系统',
+        link:'https://cz.clgg.com',
+        companyId:2,
+        tags:[2]
+    }
+    ,{
+        title:'保理业务系统',
+        link:'http://factoring.deewinkg.com:8888',
+        tel:'（86-10）84486758',
+        companyId:6,
+        tags:[2]
+    }
+    ,{
+        title:'通汇官网',
+        link:'http://www.sxtonghui.com',
+        companyId:9,
+        tags:[1]
+    }
+    ,{
+        title:'通汇综合服务平台',
+        link:'http://www.sxtonghui.com:6080/kccx/',
+        companyId:9,
+        tags:[2]
     }
     ,{
         title:'车轮滚滚移动端',

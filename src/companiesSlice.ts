@@ -7,8 +7,24 @@ export interface Company {
 }
 const companies:Array<Company>=[
     {
+        name:'陕汽',
+        id:7
+    },
+    {
         name:'德银股份',
         id:1
+    },
+    {
+        name:'德银租赁',
+        id:4
+    },
+    {
+        name:'德银保理',
+        id:6
+    },
+    {
+        name:'美信经济',
+        id:5
     },
     {
         name:'上海远行',
@@ -19,25 +35,11 @@ const companies:Array<Company>=[
         id:3
     },
     {
-        name:'德银租赁',
-        id:4
-    },
-    {
-        name:'美信经纪',
-        id:5
-    },
-    {
-        name:'德银保理',
-        id:6
-    },
-    {
-        name:'陕汽控股',
-        id:7
-    },
-    {
-        name:'陕汽商用车',
-        id:8
+        name:'通汇物流',
+        id:9
     }
+
+
 ];
 
 

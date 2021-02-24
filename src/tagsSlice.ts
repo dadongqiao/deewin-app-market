@@ -16,6 +16,9 @@ export const tags:Array<Tag>=[
     {
         name:'APP',
         id:3
+    },{
+        name:'监控平台',
+        id:4
     }
 ]
 
