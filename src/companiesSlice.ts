@@ -23,7 +23,7 @@ const companies:Array<Company>=[
         id:6
     },
     {
-        name:'美信经济',
+        name:'美信经纪',
         id:5
     },
     {

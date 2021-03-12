@@ -25,7 +25,7 @@ const AppItem:React.FC<{app:AppContent,index:number}>=function(props){
                 </div>
             ):(
                 <div className="content">
-                    {props.app.link&&<div className='link'><a href={props.app.link} target='_blank'>{props.app.link}</a></div>}
+                    {props.app.link&&<div className='link'><a title={props.app.link} href={props.app.link} target='_blank'>{props.app.link}</a></div>}
                     {props.app.tel&&<div className='tel'>{props.app.tel}</div>}
                 </div>
             )}
